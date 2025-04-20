@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibe Hub - Roblox Script Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="stars"></div>
+    
+    <header>
+        <div class="logo">
+            <span class="logo-text">Vibe<span class="accent">Hub</span></span>
+        </div>
+        <nav>
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#games" class="nav-link">Games</a>
+            <a href="#script" class="nav-link">Script</a>
+        </nav>
+        <a href="https://discord.gg/8DANGfUYgg" target="_blank" class="discord-btn">
+            <i class="fab fa-discord"></i> Join Discord
+        </a>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="glitch-text" data-text="Vibe Hub">Vibe Hub</h1>
+                <p class="subtitle">Premium Roblox script hub for driving games</p>
+                <div class="cta-buttons">
+                    <button id="copy-script" class="btn primary-btn">
+                        <i class="fas fa-copy"></i> Copy Script
+                    </button>
+                    <a href="https://discord.gg/8DANGfUYgg" target="_blank" class="btn secondary-btn">
+                        <i class="fab fa-discord"></i> Join Discord
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+            </div>
+        </section>
+
+        <section id="games" class="games-section">
+            <h2 class="section-title">Supported Games</h2>
+            <div class="games-grid">
+                <div class="game-card">
+                    <div class="game-icon"><i class="fas fa-car"></i></div>
+                    <h3>Midnight Chasers</h3>
+                    <div class="pulse"></div>
+                </div>
+                <div class="game-card">
+                    <div class="game-icon"><i class="fas fa-car-side"></i></div>
+                    <h3>Driving Empire</h3>
+                    <div class="pulse"></div>
+                </div>
+                <div class="game-card">
+                    <div class="game-icon"><i class="fas fa-road"></i></div>
+                    <h3>Highway Racers: REBORN</h3>
+                    <div class="pulse"></div>
+                </div>
+                <div class="game-card">
+                    <div class="game-icon"><i class="fas fa-flag-checkered"></i></div>
+                    <h3>Highway Legends</h3>
+                    <div class="pulse"></div>
+                </div>
+                <div class="game-card">
+                    <div class="game-icon"><i class="fas fa-map-marked-alt"></i></div>
+                    <h3>Car Driving Indonesia</h3>
+                    <div class="pulse"></div>
+                </div>
+                <div class="game-card">
+                    <div class="game-icon"><i class="fas fa-car-crash"></i></div>
+                    <h3>The Ride</h3>
+                    <div class="pulse"></div>
+                </div>
+                <div class="game-card">
+                    <div class="game-icon"><i class="fas fa-video"></i></div>
+                    <h3>Bodycam</h3>
+                    <div class="pulse"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="script" class="script-section">
+            <h2 class="section-title">Get The Script</h2>
+            <div class="script-container">
+                <pre class="script-code">loadstring(game:HttpGet("https://raw.githubusercontent.com/JustVibey/Scripts/refs/heads/main/VibeHub.lua"))()</pre>
+                <button id="copy-script-code" class="btn copy-btn">
+                    <i class="fas fa-copy"></i> Copy
+                </button>
+                <div class="copied-notification">Copied!</div>
+            </div>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Fast Updates</h3>
+                    <p>Regular updates to ensure compatibility</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Secure</h3>
+                    <p>Safe to use with anti-detection features</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Custom Features</h3>
+                    <p>Tailored functions for each supported game</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-text">Vibe<span class="accent">Hub</span></span>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#games">Games</a>
+                <a href="#script">Script</a>
+                <a href="https://discord.gg/8DANGfUYgg" target="_blank">Discord</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://discord.gg/8DANGfUYgg" target="_blank" class="social-icon">
+                    <i class="fab fa-discord"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Vibe Hub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
